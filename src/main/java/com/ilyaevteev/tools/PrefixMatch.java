@@ -4,8 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 public class PrefixMatch {
-    private PrefixMatch() {
-    }
+    private PrefixMatch() {}
 
     public static String[] prefixMatch(final String[] array, final String prefix) {
         final Comparator<String> PREFIX_COMPARATOR = (o1, o2) ->

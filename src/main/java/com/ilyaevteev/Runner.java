@@ -11,6 +11,8 @@ import java.util.Scanner;
 import java.util.TreeMap;
 
 public class Runner {
+    private Runner() {}
+
     public static void runAirportSearchApp(String[] args) {
         int columnNumber = 0;
 
