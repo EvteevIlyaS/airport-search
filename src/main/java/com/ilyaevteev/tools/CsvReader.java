@@ -19,8 +19,6 @@ public class CsvReader {
 
     private void fillColumnData() {
         InputStreamReader streamReader = new InputStreamReader(getClass().getResourceAsStream("/airports.csv"));
-//        String filePath = "src/main/resources/airports.csv";
-//        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
         try (BufferedReader reader = new BufferedReader(streamReader)) {
             String[] values; String line; int idxLine = 0;
 
